@@ -1,0 +1,25 @@
+#head {
+	background-color: $color-dark;
+	background-image: url('../img/hex.png');
+	background-attachment: fixed;
+
+	.inner {
+		background-color: $color-dark;
+		background: -moz-linear-gradient(top, $color-dark 0%, transparent 70%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $color-dark), color-stop(70%,transparent)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, $color-dark 0%,transparent 70%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, $color-dark 0%,transparent 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, $color-dark 0%,transparent 100%); /* IE10+ */
+		background: linear-gradient(to bottom, $color-dark 0%,transparent 100%); /* W3C */
+		height: 900px;
+	}
+
+	#message {
+		color: $color-light;
+		font-size: 3rem;
+		font-weight: 100;
+		letter-spacing: 2px;
+		margin-top: 23rem;
+		text-align: center;
+	}
+}

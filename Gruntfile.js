@@ -74,10 +74,7 @@ module.exports = function(grunt) {
 			tasks: [
 				'newer:uglify',
 				'compass:prod',
-				'newer:combine_mq:gigaom',
 				'newer:combine_mq:dev',
-				'newer:combine_mq:roadmap',
-				'newer:combine_mq:events',
 				'newer:cssmin'
 			]
 		}
