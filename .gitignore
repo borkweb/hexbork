@@ -1,2 +1,6 @@
-node_modules/
 .sass-cache/
+bower_components/
+css/
+js/min/
+node_modules/
+vendor/

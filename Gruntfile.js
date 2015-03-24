@@ -92,10 +92,7 @@ module.exports = function(grunt) {
 		[
 			'uglify',
 			'compass:prod',
-			'combine_mq:gigaom',
 			'combine_mq:dev',
-			'combine_mq:roadmap',
-			'combine_mq:events',
 			'cssmin'
 		]
 	);
@@ -106,10 +103,7 @@ module.exports = function(grunt) {
 		[
 			'newer:uglify',
 			'compass:prod',
-			'newer:combine_mq:gigaom',
 			'newer:combine_mq:dev',
-			'newer:combine_mq:roadmap',
-			'newer:combine_mq:events',
 			'newer:cssmin',
 			'cssmetrics:dev'
 		]
